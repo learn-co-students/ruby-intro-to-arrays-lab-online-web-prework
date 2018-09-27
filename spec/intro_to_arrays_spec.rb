@@ -90,7 +90,7 @@ describe "working with arrays" do
     end
 
     describe "#length_of_array" do
-      it 'takes in an argrument of an array and returns the length of the array' do
+      it 'takes in an argument of an array and returns the length of the array' do
         length = length_of_array(@programming_languages)
         expect(length).to eq(8)
       end
