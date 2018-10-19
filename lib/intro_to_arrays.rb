@@ -20,5 +20,5 @@ def last_element_with_array_methods(stuff)
   stuff.last
 end
 def length_of_array(stuff)
-  8
+  stuff.size
 end
