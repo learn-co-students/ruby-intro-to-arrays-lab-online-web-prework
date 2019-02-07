@@ -32,3 +32,14 @@ def first_element_with_array_methods(array)
   return array
   
 end
+
+def last_element_with_array_methods(array)
+  array = @south_east_asia.last
+  return array
+  
+end
+
+def length_of_array(array)
+  array = @programming_languages.length
+  return array
+end
