@@ -26,3 +26,9 @@ def last_element(array)
   return array
   
 end
+
+def first_element_with_array_methods(array)
+  array = @south_east_asia.first
+  return array
+  
+end
