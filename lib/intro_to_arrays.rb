@@ -14,4 +14,9 @@ def first_element(array)
   return array
   
 end
+
+def third_element(array)
+  array = @taylor_swift[2]
+  return array
   
+end
