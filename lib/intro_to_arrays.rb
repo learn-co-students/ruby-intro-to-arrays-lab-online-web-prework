@@ -8,3 +8,10 @@ def array_with_two_elements
   return @my_new_array
   
 end
+
+def first_element(array)
+ array =  @taylor_swift[0]
+  return array
+  
+end
+  
