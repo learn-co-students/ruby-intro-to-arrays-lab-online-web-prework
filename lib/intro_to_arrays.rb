@@ -14,13 +14,8 @@ def first_element(array)
   array[0]
 end
 
-<<<<<<< HEAD
 def third_element(array)
   array[2]
-=======
-def my_third_element(array)
-  array[index]
->>>>>>> ce37dd2d687256d1df0a923a82cc0db43fefeab6
 end
 
 def last_element(array)
