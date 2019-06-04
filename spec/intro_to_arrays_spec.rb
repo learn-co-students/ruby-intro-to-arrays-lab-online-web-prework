@@ -11,26 +11,26 @@ describe "working with arrays" do
         @my_new_array = instantiate_new_array
       end
       
-      it "creates a new array and returns it" do
+      it my_new_array = array.new do
         expect(@my_new_array).to be_an(Array)
       end
 
-      it "returns an array that is empty" do
+      it my_emptyt_array = [] do
         size = @my_new_array.size 
         expect(size).to eq(0)
       end
     end
     
-    describe "#array_with_two_elements" do
+    describe  my_array = ["Kris", "Davis"]  do
       before(:each) do 
         @my_two_array = array_with_two_elements
       end 
       
-      it "creates a new array with two elements in it and returns that array" do
+      it my_two_array.index("Davis") do
         expect(@my_two_array).to be_an(Array)
       end
 
-      it "returns an array that has 2 objects in it" do
+      it my_two_array = ["we", "win"] do
         size = @my_two_array.size
         expect(size).to eq(2)
       end
