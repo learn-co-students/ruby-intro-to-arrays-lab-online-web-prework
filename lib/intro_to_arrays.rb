@@ -1,38 +1,31 @@
 def instantiate_new_array
-  my_new_array = []
+	my_new_array = []
 end
 
 def array_with_two_elements
-  my_two_array = ["butts", "penises"]
+  my_two_array = ["cow", "milk"]
 end
 
-def first_element (my_first_element)
-  @taylor_swift =  ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-  my_first_element = @taylor_swift.first
+def first_element(array)
+  array[0]
 end
 
-def third_element (my_third_element)
-  @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-  my_third_element = @taylor_swift[2]
+def third_element(array)
+  array[2]
+end 
+
+def last_element(array)
+  array[-1]
 end
 
-def last_element (my_last_element)
-  @taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-  my_last_element[3]
+def first_element_with_array_methods(array)
+  array.first
 end
 
-def first_element_with_array_methods (first_country)
-  @south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
-  first_country = @south_east_asia.first
+def last_element_with_array_methods(array)
+  array.last
 end
 
-def last_element_with_array_methods (last_country)
-  @south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
-  last_country = @south_east_asia.last
+def length_of_array(array)
+  array.length 
 end
-
-def length_of_array (length)
-  @programming_languages = ["Ruby", "Javascript", "Python", "C++", "Java", "Lisp", "PHP", "Clojure"]
-  length = @programming_languages.length
-end
-  
