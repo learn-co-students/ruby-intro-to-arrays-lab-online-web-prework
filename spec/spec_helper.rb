@@ -1,8 +1,3 @@
+Words = ["one","two","three"]
+  puts words [1]
 
-RSpec.configure do |config|
-
-  def __
-    # raise "replace underscore with code"
-  end
-
-end
